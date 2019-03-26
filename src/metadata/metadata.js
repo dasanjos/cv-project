@@ -1,69 +1,102 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
-  baseUrl: 'https://sneas.github.io/cv-project',
+  name: 'Daniel Arruda Santos Anjos',
+  title: 'Software Engineering Manager / Team Lead',
+  baseUrl: 'https://dasanjos.github.io/cv',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Address': 'Tallinn, Estonia',
+    'Telephone': '+372 5553 5270',
+    'Email': '<a href="mailto:dasanjos@gmail.com">dasanjos@gmail.com</a>'
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['Agile', '++++'],
+    ['Scrum', '++++'],
+    ['Kanban', '++++'],
+    ['CI/CD', '++++'],
+    ['AWS', '++++'],
+    ['DevOps', '+++'],
+    ['Docker', '++++'],
+    ['Java', '++++'],
+    ['JavaScript', '++++'],
+    ['HTML5', '+++'],
+    ['CSS3', '++++'],
+    ['Spring', '++++'],
   ],
-  plays: [
+  jobs: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      company: 'Akana - a Perforce company',
+      title: 'Engineering Manager',
+      written: 'Aug 2018 – present',
+      badges: ['Agile', 'Java', 'CI/CD', 'AWS', 'SaaS', 'DevOps', 'Docker'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+Leading a multi product team of Software engineers with Agile methodologies. Oversee and improve software development methods, conventions and practices. Software development and migration to modern architectures.
 `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      company: 'ZeroTurnaround',
+      title: 'Software Engineering Team Lead',
+      written: 'Aug 2014 – Jul 2018',
+      badges: ['Agile', 'Java', 'CI/CD', 'TDD', 'Pair Programming'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Leading a multi product team of Software engineers with Agile methodologies. Oversee and improve software development methods, conventions and practices. Application architecture, development and migration to modern architectures.
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      company: 'CGI Germany',
+      title: 'Lead CQ5/AEM Developer Consultant',
+      written: 'Apr 2014 – Jul 2014',
+      badges: ['Java', 'AEM6', 'HTML5', 'JavaScript', 'CSS3'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+Design, estimate and implement business solutions using CQ5/AEM6 as a platform. Implement Vodafone corporate site with AEM6.
+`
+    },
+    {
+      company: 'Swedbank Estonia',
+      title: 'Software Developer and Scrum Master',
+      written: 'Nov 2012 – Apr 2014',
+      badges: ['Agile', 'JavaEE', 'Spring', 'Hibernate'],
+      contents: `
+Software development on internet banking platform with Backend development in JavaEE, Spring and Hibernate and Frontend development in HTML5, CSS3 and JavaScript for desktop and mobile devices.
+`
+    },
+    {
+      company: 'Skype',
+      title: 'Software Development Engineer',
+      written: 'Jun 2010 – Nov 2012',
+      badges: ['Agile', 'Java', 'CQ5', 'HTML5', 'JavaScript', 'CSS3' ],
+      contents: `
+Joined the Skype Frontend (Skype.com) team to help transition Skype from static site to a Java based content management system (CQ5). 
+`
+    },
+    {
+      company: 'Aqris Software AS',
+      title: 'Java Developer and Scrum Master',
+      written: 'Oct 2008 – Jun 2010',
+      badges: ['Agile', 'Spring', 'Hibernate'],
+      contents: `
+Developer, Scrum Master and Tester for internal and customer projects with multiple web technologies. 
 `
     }
   ],
-  experience: [
+  certifications: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+      title: 'Certified SCRUM Product Owner',
+      date: 'Aug 2012'
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      title: 'Certified SCRUM Master',
+      date: 'Aug 2011'
+    },
+    {
+      title: 'ISTQB Certified Tester Foundation Level',
+      date: 'Mar 2010'
+    },
+    {
+      title: 'Sun Certified Web Component Developer for J2EE (SCWCD 1.4)',
+      date: 'Aug 2007'
+    },
+    {
+      title: 'Sun Certified Java Programmer for J2SE (SCJP 1.4)',
+      date: 'Apr 2006'
     }
   ]
 };
