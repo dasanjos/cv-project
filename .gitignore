@@ -59,6 +59,7 @@ typings/
 
 # IDE
 .idea
+*.iml
 
 # Website dest
 dest
