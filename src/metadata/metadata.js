@@ -3,7 +3,7 @@ module.exports = {
   title: 'Software Engineering Manager / Team Lead',
   baseUrl: 'https://dasanjos.github.io/cv',
   facts: {
-    'Address': 'Vibu 6 - 66, 10415 Tallinn, Estonia',
+    'Address': 'Vibu 6, 10415 Tallinn, Estonia',
     'Telephone': '+372 5553 5270',
     'Email': '<a href="mailto:dasanjos@gmail.com">dasanjos@gmail.com</a>'
   },

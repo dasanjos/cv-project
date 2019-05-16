@@ -1,6 +1,6 @@
 # The Curriculum Vitae Project
 
-Daniel Arruda Santos Anjos CV (resume) forked from [**The Curriculum Vitae Project**](https://github.com/sneas/cv-project)
+Daniel Arruda Santos Anjos CV (resume) published with GitHub pages at [http://dasanjos.github.io/cv](http://dasanjos.github.io/cv) - forked from [The Curriculum Vitae Project](https://github.com/sneas/cv-project)
 
 ## Installation
 
