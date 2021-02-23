@@ -62,4 +62,4 @@ typings/
 *.iml
 
 # Website dest
-dest
+dist

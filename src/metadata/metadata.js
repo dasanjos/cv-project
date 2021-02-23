@@ -23,18 +23,25 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'TransferWise',
+      title: 'Software Engineer Team Lead',
+      written: 'June 2019 – present',
+      badges: ['Agile', 'Java', 'CI/CD', 'AWS', 'SaaS', 'DevOps', 'Docker', 'Kubernetes', 'React'],
+      contents: `Scaled EDD engineering to 7 cross-functional engineers, lead new product development and migration of legacy Java 8 / Groovy / PHP services to AWS K8s Java15+ microservices without downtime.`
+    },
+    {
       company: 'Akana - a Perforce company',
-      title: 'Engineering Manager',
-      written: 'Aug 2018 – present',
+      title: 'Software Engineer Team Lead',
+      written: 'Dec 2017 – May 2019',
       badges: ['Agile', 'Java', 'CI/CD', 'AWS', 'SaaS', 'DevOps', 'Docker'],
-      contents: `Created the engineering site and lead a multi product team of Software engineers and Software engineers in Testing. Improved software development practices by introducing Docker and CI/CD pipelines with Jenkins.`
+      contents: `Created the engineering site and lead a cross-functional team of Software engineers and Software engineers in Test. Improved software development practices by introducing Docker and CI/CD pipelines with Jenkins.`
     },
     {
       company: 'JRebel - a Perforce company',
       title: 'Software Engineering Team Lead',
-      written: 'Aug 2014 – Jul 2018',
+      written: 'Aug 2014 – Dec 2017',
       badges: ['Agile', 'Java', 'CI/CD', 'TDD', 'Pair Programming'],
-      contents: `Leading a multi product team of Software engineers with Agile methodologies. Oversee and improve software development methods, conventions and practices. Application architecture, development and migration to modern architectures.`
+      contents: `Leading a cross-functional team of Software engineers with Agile methodologies. Oversee and improve software development methods, conventions and practices. Application architecture, development and migration to modern architectures.`
     },
     {
       company: 'CGI Germany',
@@ -45,7 +52,7 @@ module.exports = {
     },
     {
       company: 'Swedbank Estonia',
-      title: 'Software Developer and Scrum Master',
+      title: 'Software Developer',
       written: 'Nov 2012 – Apr 2014',
       badges: ['Agile', 'JavaEE', 'Spring', 'Hibernate'],
       contents: `Software development (backend and frontend) with Internet Banking team. Implemented Latvian and Lithuanian digital signature (BDOC) for authentication and payments online.`
